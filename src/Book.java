@@ -9,9 +9,6 @@ public class Book {
         this.yearOfPublishing = yearOfPublishing;
     }
 
-    public String toString() {
-        return name + author +  yearOfPublishing+" году.";
-    }
 
     public String getName() {
         return name;
